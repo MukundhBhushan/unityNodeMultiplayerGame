@@ -60,7 +60,7 @@
      <Compile Include="Assets\scripts\NetworkManager.cs" />
      <Compile Include="Assets\scripts\PlayerController.cs" />
      <Compile Include="Assets\scripts\PlayerSpawner.cs" />
-     <Compile Include="Assets\scripts\spawnpoint.cs" />
+     <Compile Include="Assets\scripts\SpawnPoint.cs" />
      <Compile Include="Assets\SocketIO\JSONObject\JSONObject.cs" />
      <Compile Include="Assets\SocketIO\JSONObject\JSONTemplates.cs" />
      <Compile Include="Assets\SocketIO\JSONObject\VectorTemplates.cs" />

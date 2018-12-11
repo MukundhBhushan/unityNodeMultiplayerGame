@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 223176545534838116}
   - component: {fileID: 114930035966032720}
   - component: {fileID: 114503753410417834}
+  - component: {fileID: 114450154812440172}
   m_Layer: 0
   m_Name: healthbar Canvas
   m_TagString: Untagged
@@ -400,7 +401,18 @@ MonoBehaviour:
   destroyOnDeath: 1
   currentHealth: 100
   isEnemy: 0
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 224095650925620236}
+--- !u!114 &114450154812440172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366583122663374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b66cf0dc178c94ea25b08dedd3a498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114503753410417834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -430,7 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 1166979982065836, guid: 9ab5dd365609e5143a40da969b69712a,
     type: 2}
-  bulletSpawn: {fileID: 0}
+  bulletSpawn: {fileID: 4059510924023836}
   isLocalPlayer: 1
 --- !u!114 &114849406456155230
 MonoBehaviour:

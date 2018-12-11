@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 23926244110059780}
   - component: {fileID: 136115712425414102}
   - component: {fileID: 114064468919515776}
-  - component: {fileID: 114438162284116942}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -323,6 +322,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1db56888c1f0a44ae34ca9a922a411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyOnDeath: 0
+  currentHealth: 100
+  isEnemy: 0
+  healthbar: {fileID: 0}
 --- !u!114 &114085515415706088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -344,17 +347,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114438162284116942
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1819497314008588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e0093c6a4f6779429efde0630983241, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114605870596584476
 MonoBehaviour:
   m_ObjectHideFlags: 1
